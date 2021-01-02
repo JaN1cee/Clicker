@@ -2,6 +2,9 @@ body {
   background-color: slategrey;
   user-select: none;
 }
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
 .leftSection {
   width: 80%;
   float: left;
