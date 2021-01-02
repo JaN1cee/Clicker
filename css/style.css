@@ -1,6 +1,7 @@
 body {
   background-color: slategrey;
   user-select: none;
+  touch-action: manipulation;
 }
 .disable-dbl-tap-zoom {
   touch-action: manipulation;
