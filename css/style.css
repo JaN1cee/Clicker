@@ -12,6 +12,14 @@ body {
   text-align: center;
   color: lightgrey;
 }
+.scoreDisplay {
+  background-color: rgb(122, 122, 122, 0.6);
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  position: absolute;
+  left: 10%;
+}
 .clickBox {
   width: 30%;
   height: 20%;
@@ -42,7 +50,13 @@ body {
   border-radius: 10px;
   margin: 10px 0px 10px 0px;
   color: white;
+  transition: all 0.2s ease-in-out;
 }
+.shopButton:hover {
+  background-color: rgb(186, 186, 186);
+  transition: all 0.2s ease-in-out;
+}
+
 .shopButton #amount {
   font-size: 110%;
   width: 15%;
@@ -50,9 +64,7 @@ body {
 .shopButton #nameAndCost p:first-of-type {
   font-size: 110%;
 }
-.shopButton:hover {
-  background-color: rgb(186, 186, 186);
-}
+
 footer {
   position: absolute;
   bottom: 0;
