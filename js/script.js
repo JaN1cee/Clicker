@@ -53,7 +53,16 @@ setInterval(function () {
   saveGame();
 }, 30000);
 
-document.addEventListener("keydown", function (event) {}, false);
+document.addEventListener(
+  "keydown",
+  function (event) {
+    if (event.ctrlKey && event.which == 83) {
+      event.preventDefault();
+      saveGame();
+    }
+  },
+  false
+);
 
 function saveGame() {
   var gameSave = {
