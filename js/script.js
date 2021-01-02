@@ -20,10 +20,10 @@ var game = {
 };
 
 var building = {
-  name: ["Farmer", "Swordsmen", "Archer"],
-  count: [0, 0, 0],
-  income: [0.5, 2, 10],
-  cost: [10, 100, 1000],
+  name: ["Farmer", "Swordsmen", "Archer", "Mage"],
+  count: [0, 0, 0, 0],
+  income: [0.5, 2, 10, 50],
+  cost: [10, 100, 1000, 5000],
 
   purchase: function (index) {
     if (game.score >= this.cost[index]) {
