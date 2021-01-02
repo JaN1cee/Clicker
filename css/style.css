@@ -7,7 +7,7 @@ body {
   touch-action: manipulation;
 }
 .leftSection {
-  width: 80%;
+  width: 70%;
   float: left;
   text-align: center;
   color: lightgrey;
@@ -17,7 +17,7 @@ body {
   height: 20%;
   background-color: aliceblue;
   position: absolute;
-  left: 25%;
+  left: 20%;
   top: 10%;
   font-size: 400%;
   border-radius: 2.5%;
@@ -31,9 +31,10 @@ body {
 
 .rightSection {
   margin-top: 5%;
-  width: 20%;
+  width: 30%;
   float: right;
   color: lightgrey;
+  white-space: nowrap;
 }
 .shopButton {
   background-color: rgb(146, 146, 146);
@@ -45,9 +46,8 @@ body {
 .shopButton #amount {
   font-size: 110%;
   width: 15%;
-  text-align: ;
 }
-.shopButton #nameAndCost {
+.shopButton #nameAndCost p:first-of-type {
   font-size: 110%;
 }
 .shopButton:hover {
