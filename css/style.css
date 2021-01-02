@@ -22,8 +22,11 @@ body {
   font-size: 400%;
   border-radius: 2.5%;
 }
-.clickBox:active {
+.clickBox:hover {
   transform: scale(1.1);
+}
+.clickBox:active {
+  transform: scale(1.2);
 }
 
 .rightSection {
