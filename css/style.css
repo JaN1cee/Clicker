@@ -27,37 +27,14 @@ body {
   float: right;
   color: lightgrey;
 }
-#shopTitle {
-  text-align: center;
+.shopButton {
+  background-color: rgb(146, 146, 146);
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0px 10px 0px;
 }
-
-.shop {
-  text-align: right;
-}
-#farmerShop {
-  background-color: aliceblue;
-  border-radius: 3px;
-  color: black;
-  padding: 1px;
-}
-#swordsmenShop {
-  background-color: aliceblue;
-  border-radius: 3px;
-  color: black;
-  padding: 1px;
-}
-#archerShop {
-  background-color: aliceblue;
-  border-radius: 3px;
-  color: black;
-  padding: 1px;
-}
-#button {
-  background-color: slategray;
-  cursor: pointer;
-  border: none;
-  border-radius: 20%;
-  padding: 3%;
+.shopButton:hover {
+  background-color: rgb(186, 186, 186);
 }
 footer {
   position: absolute;
