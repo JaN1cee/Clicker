@@ -32,9 +32,11 @@ body {
 }
 .clickBox:hover {
   transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
 }
 .clickBox:active {
   transform: scale(1.2);
+  transition: all 0.1s ease-in-out;
 }
 
 .rightSection {
