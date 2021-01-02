@@ -46,6 +46,12 @@ body {
   color: black;
   padding: 1px;
 }
+#archerShop {
+  background-color: aliceblue;
+  border-radius: 3px;
+  color: black;
+  padding: 1px;
+}
 #button {
   background-color: slategray;
   cursor: pointer;
