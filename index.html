@@ -14,12 +14,14 @@
           ScorePerSecond (SpS): <span id="scorePerSecond">0</span>
         </div>
       </div>
-      <div class="clickBox" onclick="addToScore(clickAmount)">Click</div>
+      <div class="clickBox" onclick="game.addToScore(game.clickAmount)">
+        Click
+      </div>
     </div>
 
     <br />
 
-    <div class="rightSection">
+    <div class="rightSection" id="shopContainer">
       <div class="shop">
         <div id="shopTitle">Shop</div>
         <br />
@@ -41,6 +43,16 @@
 
           <button onclick="addSwordsmen()" id="button">Buy</button>
         </div>
+
+        <br />
+
+        <div id="archerShop">
+          Archer:
+          <span id="archer">0</span>
+          &nbsp&nbsp Cost: <span id="archerCost">1000</span> &nbsp
+
+          <button onclick="addArcher()" id="button">Buy</button>
+        </div>
       </div>
     </div>
     <footer>
@@ -51,6 +63,5 @@
     </footer>
   </body>
 
-  <script src="js/script.js"></script>
   <script src="js/script_clean.js"></script>
 </html>
