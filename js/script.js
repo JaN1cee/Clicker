@@ -94,6 +94,14 @@ function loadGame() {
     swordsmenCost = savedGame.swordsmenCost;
 }
 
+function resetGame() {
+  if (confirm("Are you sure you want to reset your game?")) {
+    var gameSave = {};
+    localStorage.setItem("gameSave", JSON.stringify(gameSave));
+    location.reload();
+  }
+}
+
 window.onload = function () {
   loadGame();
   updateScorePerSecond();
