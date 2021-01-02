@@ -3,7 +3,7 @@ var game = {
   totalScore: 0,
   totalClicks: 0,
   clickAmount: 1,
-  version: 0.0,
+  version: 0.1,
 
   addToScore: function (amount) {
     this.score += amount;
@@ -20,7 +20,7 @@ var game = {
 };
 
 var building = {
-  name: ["Farmer", "Swordsmen", "Archer", "Mage"],
+  name: [" Farmer", " Swordsmen", " Archer", " Mage"],
   count: [0, 0, 0, 0],
   income: [0.5, 2, 10, 50],
   cost: [10, 100, 1000, 5000],
