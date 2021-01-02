@@ -30,6 +30,7 @@ body {
 }
 
 .rightSection {
+  margin-top: 5%;
   width: 20%;
   float: right;
   color: lightgrey;
@@ -39,6 +40,15 @@ body {
   width: 100%;
   border-radius: 10px;
   margin: 10px 0px 10px 0px;
+  color: white;
+}
+.shopButton #amount {
+  font-size: 110%;
+  width: 15%;
+  text-align: ;
+}
+.shopButton #nameAndCost {
+  font-size: 110%;
 }
 .shopButton:hover {
   background-color: rgb(186, 186, 186);
