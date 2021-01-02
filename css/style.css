@@ -1,0 +1,23 @@
+body {
+  background-color: slategray;
+}
+.scoreDisplay {
+  color: lightgrey;
+  font-size: 66px;
+}
+.clickBox {
+  height: 10%;
+  width: 10%;
+  background-color: black;
+  align-items: center;
+}
+
+.clickBox:active {
+  height: 10%;
+  width: 10%;
+  background-color: grey;
+}
+
+.shop {
+  color: lightgrey;
+}
