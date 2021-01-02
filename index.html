@@ -6,27 +6,41 @@
   </head>
 
   <body>
-    <div class="scoreDisplay">Score: <span id="score">0</span></div>
+    <div class="leftSection">
+      <div class="scoreDisplay">
+        Score: <span id="score">0</span>
 
-    <div class="clickBox" onclick="addToScore(clickAmount)"></div>
+        <div id="scorePerSecondDisplay">
+          ScorePerSecond (SpS): <span id="scorePerSecond">0</span>
+        </div>
+      </div>
+      <div class="clickBox" onclick="addToScore(clickAmount)">Click</div>
+    </div>
 
     <br />
 
-    <div class="shop">
-      <div id="farmerShop">
-        Farmers:
-        <span id="farmer">0</span>
-        &nbsp&nbsp Cost: <span id="farmerCost">10</span>
+    <div class="rightSection">
+      <div class="shop">
+        <div id="shopTitle">Shop</div>
+        <br />
+        <br />
+        <div id="farmerShop">
+          Farmers:
+          <span id="farmer">0</span>
+          &nbsp&nbsp Cost: <span id="farmerCost">10</span> &nbsp
 
-        <button onclick="addFarmer()">Buy</button>
-      </div>
+          <button onclick="addFarmer()" id="button">Buy</button>
+        </div>
 
-      <div id="swordsmenShop">
-        Swordsmen:
-        <span id="swordsmen">0</span>
-        &nbsp&nbsp Cost: <span id="swordsmenCost">100</span>
+        <br />
 
-        <button onclick="addSwordsmen()">Buy</button>
+        <div id="swordsmenShop">
+          Swordsmen:
+          <span id="swordsmen">0</span>
+          &nbsp&nbsp Cost: <span id="swordsmenCost">100</span> &nbsp
+
+          <button onclick="addSwordsmen()" id="button">Buy</button>
+        </div>
       </div>
     </div>
   </body>
